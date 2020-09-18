@@ -9,7 +9,7 @@ export default function HeroBlock({}) {
       <img src={'/img/Hero.jpg'} alt={'Hero Image'} />
       <h1>NIKA's Full screen Hero banner</h1>
       <div className={styles.apply}>
-        <Link href={'https://app.hackjunction.com/events/junction-2020-connected'}>Apply now</Link>
+        <Link newTab href={'https://app.hackjunction.com/events/junction-2020-connected'}>Apply now</Link>
       </div>
     </div>
   )

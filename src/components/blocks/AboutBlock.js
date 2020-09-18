@@ -16,7 +16,7 @@ export default function AboutBlock ({}) {
            <p>We will assure that your hacking days, are the safest and the most enjoyable as we can do! ;)</p>
         </div>
         <div className={styles.buttons}>
-          <Link href={'https://www.thestudenthotel.com/vienna/stay/hotel-stay/'}>About The Student Hotel</Link>
+          <Link newTab href={'https://www.thestudenthotel.com/vienna/stay/hotel-stay/'}>About The Student Hotel</Link>
         </div>
       </Container>
     </div>

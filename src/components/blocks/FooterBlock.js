@@ -9,9 +9,9 @@ export default function FooterBlock({}) {
     <div className={styles.footerBlock}>
       <Container>
         <div className={styles.links}>
-          <Link href={'https://google.de'}>Privacy Policy</Link>
-          <Link href={'https://google.de'}>Terms & Conditions</Link>
-          <Link href={'https://google.de'}>Junction Conneted Website</Link>
+          <Link newTab href={'https://google.de'}>Privacy Policy</Link>
+          <Link newTab href={'https://google.de'}>Terms & Conditions</Link>
+          <Link newTab href={'https://google.de'}>Junction Conneted Website</Link>
         </div>
 
         <div className={styles.disclaimer}>

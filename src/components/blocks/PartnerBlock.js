@@ -12,7 +12,7 @@ export default function({ partners = [] }) {
         <div className={styles.partners}>
           {partners.map((partner, i) => {
             return (
-              <Link href={'/'} key={'partner_' + i}>
+              <Link newTab href={'/'} key={'partner_' + i}>
                 <div className={styles.partner}>
                   <img src={partner.img} alt={partner.alt} />
                 </div>
