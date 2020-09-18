@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './PartnerBlock.module.scss';
 import Container from "./Container";
+import Link from "../common/Link";
 
 export default function({ partners = [] }) {
 
@@ -11,9 +12,11 @@ export default function({ partners = [] }) {
         <div className={styles.partners}>
           {partners.map((partner, i) => {
             return (
-              <div className={styles.partner} key={'partner_' + i}>
-                <img src={partner.img} alt={partner.alt} />
-              </div>
+              <Link href={'/'} key={'partner_' + i}>
+                <div className={styles.partner}>
+                  <img src={partner.img} alt={partner.alt} />
+                </div>
+              </Link>
             );
           })}
         </div>

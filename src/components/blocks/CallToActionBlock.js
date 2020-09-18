@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './CallToActionBlock.module.scss';
 import Container from "./Container";
+import Link from "../common/Link";
 
 export default function CallToActionBlock({}) {
 
@@ -18,9 +19,9 @@ export default function CallToActionBlock({}) {
           If you'd like to join the community by organizing a Hub yourself, shoot us a message at hello(at)hackjunction.com!
         </div>
         <div className={styles.buttons}>
-          <a className={styles.apply} href={'https://app.hackjunction.com/events/junction-2020-connected'}>Apply here</a>
-          <a className={styles.tracks} href={'https://connected.hackjunction.com/challenges'}>The Tracks</a>
-          <a className={styles.volunteer} href={'mailto:victor.tibo@hackjunction.com'}>Volunteer</a>
+          <Link href={'https://app.hackjunction.com/events/junction-2020-connected'}><div className={styles.apply}>Apply here</div></Link>
+          <Link href={'https://connected.hackjunction.com/challenges'}><div className={styles.tracks}>The Tracks</div></Link>
+          <Link href={'mailto:victor.tibo@hackjunction.com'}><div className={styles.volunteer}>Volunteer</div></Link>
         </div>
       </Container>
     </div>

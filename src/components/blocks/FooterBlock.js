@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './FooterBlock.module.scss';
 import Container from "./Container";
+import Link from "../common/Link";
 
 export default function FooterBlock({}) {
 
@@ -8,13 +9,13 @@ export default function FooterBlock({}) {
     <div className={styles.footerBlock}>
       <Container>
         <div className={styles.links}>
-          <a href={'https://google.de'}>Privacy Policy</a>
-          <a href={'https://google.de'}>Terms & Conditions</a>
-          <a href={'https://google.de'}>Junction Conneted Website</a>
+          <Link href={'https://google.de'}>Privacy Policy</Link>
+          <Link href={'https://google.de'}>Terms & Conditions</Link>
+          <Link href={'https://google.de'}>Junction Conneted Website</Link>
         </div>
 
         <div className={styles.disclaimer}>
-          Designed, developed, and hosted with {'<3'} by <a href={'https://glitchcat.io'}>glitchcat.io</a> and <a href={'https://zwolf.io'}>zwolf.io</a>
+          Designed, developed, and hosted with {'<3'} by <Link href={'https://glitchcat.io'}>glitchcat.io</Link> and <Link href={'https://zwolf.io'}>zwolf.io</Link>
         </div>
       </Container>
     </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './HeroBlock.module.scss';
+import Link from "../common/Link";
 
 export default function HeroBlock({}) {
 
@@ -8,7 +9,7 @@ export default function HeroBlock({}) {
       <img src={'/img/Hero.jpg'} alt={'Hero Image'} />
       <h1>NIKA's Full screen Hero banner</h1>
       <div className={styles.apply}>
-        <a href={'https://app.hackjunction.com/events/junction-2020-connected'}>Apply now</a>
+        <Link href={'https://app.hackjunction.com/events/junction-2020-connected'}>Apply now</Link>
       </div>
     </div>
   )

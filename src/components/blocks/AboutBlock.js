@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './AboutBlock.module.scss';
 import Container from "./Container";
+import Link from "../common/Link";
 
 export default function AboutBlock ({}) {
 
@@ -15,7 +16,7 @@ export default function AboutBlock ({}) {
            <p>We will assure that your hacking days, are the safest and the most enjoyable as we can do! ;)</p>
         </div>
         <div className={styles.buttons}>
-          <a href={'https://google.de'} className={styles.about}>About The Student Hotel</a>
+          <Link href={'https://www.thestudenthotel.com/vienna/stay/hotel-stay/'}>About The Student Hotel</Link>
         </div>
       </Container>
     </div>
