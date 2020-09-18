@@ -1,0 +1,40 @@
+@import "../../../styles/vars";
+
+.callToAction {
+
+  width: 100%;
+  background-color: $yellow;
+  padding: 140px 0;
+
+  .title {
+    @include font-Lato700;
+    font-size: 30px;
+    line-height: 36px;
+    color: $blue;
+    margin-bottom: 64px;
+  }
+
+  .description {
+    @include font-Lato400;
+    font-size: 20px;
+    line-height: 24px;
+    color: $blue;
+    margin-bottom: 64px;
+  }
+
+  .buttons {
+    display: flex;
+
+    a {
+      margin-right: 32px;
+    }
+
+    .apply {
+      @include buttonBlue;
+    }
+
+    .tracks, .volunteer {
+      @include buttonRed;
+    }
+  }
+}

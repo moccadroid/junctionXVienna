@@ -1,0 +1,19 @@
+@import "../../../styles/vars";
+
+.textBlock {
+  width: 100%;
+  padding: 100px 0;
+  @include font-Lato400;
+  font-size: 35px;
+  line-height: 42px;
+
+  &.blue {
+    background-color: $blue;
+    color: $yellow;
+  }
+
+  &.yellow {
+    background-color: $yellow;
+    color: $blue;
+  }
+}

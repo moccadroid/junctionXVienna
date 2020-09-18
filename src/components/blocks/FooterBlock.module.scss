@@ -1,0 +1,28 @@
+@import "../../../styles/vars";
+
+.footerBlock {
+  background-color: $yellow;
+  padding: 64px 0;
+
+  .links {
+    a {
+      display: block;
+      @include font-Lato700;
+      font-size: 20px;
+      line-height: 24px;
+      color: $blue;
+      margin-bottom: 32px;
+    }
+  }
+
+  .disclaimer {
+    @include font-Lato400;
+    color: $black;
+
+    a {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

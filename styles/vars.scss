@@ -1,0 +1,56 @@
+$blue: #132C5A;
+$yellow: #F0D3A8;
+$green: #7AA79E;
+$red: #E1825A;
+$white: #ffffff;
+$black: #000000;
+
+$mobileWidth: 800px;
+
+@mixin font-Lato400 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+@mixin font-Lato700 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+@mixin font-Lato900 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.25em;
+}
+
+@mixin button {
+  padding: 14px 42px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: 3px solid $red;
+
+  filter: drop-shadow(3px 0px 4px rgba(0,0,0,0.25));
+}
+
+@mixin buttonRed {
+  @include button;
+  background-color: $red;
+  color: $blue;
+
+  &:hover {
+    background-color: $blue;
+    color: $white;
+  }
+}
+
+@mixin buttonBlue {
+  @include button;
+  background-color: $blue;
+  color: $white;
+
+  &:hover {
+    background-color: $red;
+  }
+}
