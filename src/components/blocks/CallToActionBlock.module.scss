@@ -38,13 +38,15 @@
     .tracks, .volunteer {
       @include buttonRed;
     }
-
-    .volunteer {
-      margin: 0;
-    }
   }
 
   @media (max-width: $mobileWidth) {
     padding: 64px 0;
+
+    .buttons {
+      .volunteer {
+        margin: 0;
+      }
+    }
   }
 }
