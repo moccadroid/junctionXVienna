@@ -16,4 +16,8 @@
     background-color: $yellow;
     color: $blue;
   }
+
+  @media (max-width: $mobileWidth) {
+    padding: 64px 0;
+  }
 }

@@ -36,4 +36,8 @@
       @include buttonBlue;
     }
   }
+
+  @media (max-width: $mobileWidth) {
+    padding: 64px 0;
+  }
 }

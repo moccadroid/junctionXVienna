@@ -24,9 +24,11 @@
 
   .buttons {
     display: flex;
+    flex-flow: wrap;
 
     a {
       margin-right: 32px;
+      margin-bottom: 32px;
     }
 
     .apply {
@@ -36,5 +38,13 @@
     .tracks, .volunteer {
       @include buttonRed;
     }
+
+    .volunteer {
+      margin: 0;
+    }
+  }
+
+  @media (max-width: $mobileWidth) {
+    padding: 64px 0;
   }
 }

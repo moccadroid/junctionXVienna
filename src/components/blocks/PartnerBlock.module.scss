@@ -23,9 +23,20 @@
       justify-content: center;
       align-items: center;
       margin-right: 28px;
+      margin-bottom: 28px;
 
       img {
         width: 100%;
+      }
+    }
+  }
+
+  @media (max-width: $mobileWidth) {
+    padding: 64px 0;
+
+    .partners {
+      .partner {
+        margin-right: 0;
       }
     }
   }

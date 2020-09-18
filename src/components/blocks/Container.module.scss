@@ -6,4 +6,7 @@
   margin: auto;
 
 
+  @media (max-width: $mobileWidth) {
+    padding: 24px;
+  }
 }
