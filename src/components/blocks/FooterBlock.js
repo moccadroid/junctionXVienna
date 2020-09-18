@@ -14,7 +14,7 @@ export default function FooterBlock({}) {
         </div>
 
         <div className={styles.disclaimer}>
-          Designed and developed with {'<3'} by <a href={'https://glitchcat.io'}>glitchcat.io</a> and <a href={'https://zwolf.io'}>zwolf.io</a>
+          Designed, developed, and hosted with {'<3'} by <a href={'https://glitchcat.io'}>glitchcat.io</a> and <a href={'https://zwolf.io'}>zwolf.io</a>
         </div>
       </Container>
     </div>

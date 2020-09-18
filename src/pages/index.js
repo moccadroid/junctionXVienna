@@ -21,7 +21,7 @@ export default function Home() {
         <b>Free</b> of charge for all accepted participants.
       </TextBlock>
       <AboutBlock />
-      <PartnerBlock partners={[{ img: 'https://picsum.photos/300/200', alt: 'an image'}, { img: 'https://picsum.photos/300/200', alt: 'an image'}]} />
+      { /* <PartnerBlock partners={[{ img: 'https://picsum.photos/300/200', alt: 'an image'}, { img: 'https://picsum.photos/300/200', alt: 'an image'}]} /> */ }
       <FooterBlock />
     </>
   )

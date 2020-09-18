@@ -5,10 +5,10 @@ export default function HeroBlock({}) {
 
   return (
     <div className={styles.heroBlock}>
-      <img src={'https://picsum.photos/1200/800'} alt={'Hero Image'} />
+      <img src={'/img/Hero.jpg'} alt={'Hero Image'} />
       <h1>NIKA's Full screen Hero banner</h1>
       <div className={styles.apply}>
-        <a href={'httos://google.de'}>Apply now</a>
+        <a href={'https://app.hackjunction.com/events/junction-2020-connected'}>Apply now</a>
       </div>
     </div>
   )

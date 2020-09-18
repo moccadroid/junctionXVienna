@@ -18,9 +18,9 @@ export default function CallToActionBlock({}) {
           If you'd like to join the community by organizing a Hub yourself, shoot us a message at hello(at)hackjunction.com!
         </div>
         <div className={styles.buttons}>
-          <a className={styles.apply} href={'https://google.de'}>Apply here</a>
-          <a className={styles.tracks} href={'https://google.de'}>The Tracks</a>
-          <a className={styles.volunteer} href={'https://google.de'}>Volunteer</a>
+          <a className={styles.apply} href={'https://app.hackjunction.com/events/junction-2020-connected'}>Apply here</a>
+          <a className={styles.tracks} href={'https://connected.hackjunction.com/challenges'}>The Tracks</a>
+          <a className={styles.volunteer} href={'mailto:victor.tibo@hackjunction.com'}>Volunteer</a>
         </div>
       </Container>
     </div>
