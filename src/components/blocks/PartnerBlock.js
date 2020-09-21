@@ -3,7 +3,7 @@ import styles from './PartnerBlock.module.scss';
 import Container from "./Container";
 import Link from "../common/Link";
 
-export default function({ partners = [] }) {
+export default function PartnerBlock ({ partners = [] }) {
 
   return (
     <div className={styles.partnerBlock}>

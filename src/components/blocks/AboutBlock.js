@@ -5,18 +5,19 @@ import Link from "../common/Link";
 
 export default function AboutBlock ({}) {
 
-  const backgroundImage = {backgroundImage: 'url(https://picsum.photos/1200/800)' }
+  const backgroundImage = {backgroundImage: 'url(/img/Lobby_Entrance.jpg)' }
   return (
     <div className={styles.aboutBlock} style={backgroundImage}>
       <div className={styles.overlay} />
       <Container>
         <div className={styles.text}>
-          <p>Not feeling like hacking from home?<br/>Come to our hub then!</p> 
-          <p>Our partners at The Student Hotel care about each and every one of our hackers – and that starts with your safety and wellbeing.</p>
-           <p>We will assure that your hacking days, are the safest and the most enjoyable as we can do! ;)</p>
+          <p>The Student Hotel (TSH) not only welcomes students, but guests and visitors from all walks of life with an open mind, love of learning and curious nature; with what we call a ’student spirit.</p>
+          <p>The student spirit can be seen everywhere from our bold design and impactful initiatives to our ever-inspiring students, guests and co-workers.</p>
+          <p>At TSH you reach your full potential whilst connecting with like-minded from all walks of life.</p>
+          <p>In case you need a cozy and safe place to stay: book your room at TSH and enjoy an all-round experience with the JUNCTIONx Community in Vienna.</p>
         </div>
         <div className={styles.buttons}>
-          <Link newTab href={'https://www.thestudenthotel.com/vienna/stay/hotel-stay/'}>About The Student Hotel</Link>
+          <Link newTab href={'https://www.thestudenthotel.com/vienna/stay/hotel-stay/'}>Book your room</Link>
         </div>
       </Container>
     </div>
